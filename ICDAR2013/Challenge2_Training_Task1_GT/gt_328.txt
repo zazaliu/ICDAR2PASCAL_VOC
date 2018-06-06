@@ -1,0 +1,5 @@
+1405 116 2132 208 "Info@serviplus.de"
+891 256 2608 588 "www.serviplus.de"
+257 1113 980 1373 "Geld"
+1188 1122 2743 1376 "einwerfen"
+258 1434 2740 1690 "Betriebsbereit"
