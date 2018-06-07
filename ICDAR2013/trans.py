@@ -1,10 +1,24 @@
 #! /usr/bin/python  
 #coding:utf-8  
   
-import os, sys  
+import os, sys
+import shutil
 import glob  
 from PIL import Image  
-  
+
+# generate VOC2007 dir
+cur_path = os.getcwd()
+Annotations = cur_path + '\\' + 'VOC2007' + '\\' + 'Annotations'
+os.makedirs(Annotations)
+Main = cur_path + '\\' + 'VOC2007' + '\\' + 'ImageSets' + '\\' + 'Main'
+os.makedirs(Main)
+open('trainval.txt','w+').close()
+shutil.move('trainval.txt',Main)
+open('test.txt','w+').close()
+shutil.move('test.txt',Main)
+JPEGImages = cur_path + '\\' + 'VOC2007' + '\\' + 'JPEGImages'
+os.makedirs(JPEGImages)
+
 # target dir  
 base_dir = "VOC2007"  
   
