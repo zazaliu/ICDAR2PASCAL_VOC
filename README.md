@@ -20,9 +20,7 @@ pip install -r requirements.txt
 - 测试图像集：Challenge2_Test_Task12_Images
 - 测试标注集：Challenge2_Test_Task1_GT
 
-标注格式：x1, y1, x2, y2, text
-如图：
-![img1](http://ww1.sinaimg.cn/large/c26aeefely1fs0ci2pae2j20w00i0t98.jpg)
+标注格式：xmin, ymin, xmax, ymax, text
 
 举例：38, 43, 920, 215, "Tiredness"
 
@@ -40,10 +38,8 @@ python ICDAR2013/trans.py
 
 > 注：ICDAR2015 未提供测试标注集
 
-标注格式：x1,y1,x2,y1,x1,y2,x2,y2,text
-
-如图：
-![img1](http://ww1.sinaimg.cn/large/c26aeefely1fs0ci2pae2j20w00i0t98.jpg)
+标注格式：x1,y1,x2,y2,x3,y3,x4,y4,text
+其中，x1,y1为左上角坐标,x2,y2为右上角坐标,x3,y3为右下角坐标,x4,y4为左下角坐标。
 
 举例：(### 表示文字无法辨认)
 1. 377,117,463,117,465,130,378,130,Genaxis Theatre
