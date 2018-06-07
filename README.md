@@ -13,7 +13,7 @@ git clone https://github.com/zazaliu/ICDAR2PASCAL_VOC.git
 pip install -r requirements.txt
 ```
 
-### ICDAR2013 dataset 转化为 PASCAL_VOC dataset 格式
+### [ICDAR2013 dataset](https://pan.baidu.com/s/1YzU-FSiH8r7h5o3d4rj0cQ) 转化为 PASCAL_VOC dataset 格式
 下载 ICDAR2013 dataset 解压放入 ICDAR2013 文件夹，包含：
 - 训练图像集：Challenge2_Training_Task12_Images
 - 训练标注集：Challenge2_Training_Task1_GT
@@ -30,7 +30,7 @@ python ICDAR2013/trans.py
 ```
 生成的数据集保存在 VOC2007 文件夹中
 
-### ICDAR2015 dataset 转化为 PASCAL_VOC dataset 格式
+### [ICDAR2015 dataset](https://pan.baidu.com/s/1YzU-FSiH8r7h5o3d4rj0cQ) 转化为 PASCAL_VOC dataset 格式
 下载 ICDAR2015 dataset 解压放入 ICDAR2015 文件夹，包含：
 - 训练图像集：ch4_training_images
 - 训练标注集：ch4_training_localization_transcription_gt
