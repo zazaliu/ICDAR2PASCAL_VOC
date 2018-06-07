@@ -6,7 +6,7 @@ Convert scene text dataset ICDAR2013, ICDAR2015 to PASCAL_VOC dataset
 ### 克隆代码到本地
 
 ```py
-git clone git@github.com:zazaliu/ICDAR2PASCAL_VOC.git
+git clone https://github.com/zazaliu/ICDAR2PASCAL_VOC.git
 ```
 ### 安装依赖包
 ```py
